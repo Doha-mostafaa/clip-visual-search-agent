@@ -1,0 +1,15 @@
+[2026-09-14 20:06:22,764] 54 datasets - INFO - PyTorch version 2.4.1 available.
+[2026-09-14 20:06:23,041] 17 root - INFO - Starting dataset download from Hugging Face...
+[2026-09-14 20:06:27,571] 22 root - INFO - Full dataset loaded, total rows: 44072
+[2026-09-14 20:06:27,571] 25 root - INFO - Categories found: ['Apparel' 'Accessories' 'Footwear' 'Personal Care' 'Free Items'
+ 'Sporting Goods' 'Home']
+[2026-09-14 20:06:27,587] 40 root - INFO - Balanced subset created, total rows: 121
+[2026-09-14 20:06:27,646] 67 root - INFO - Fake prices added successfully
+[2026-09-14 20:06:27,745] 18 root - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+[2026-09-14 20:06:29,477] 25 root - INFO - CLIP model loaded successfully on device: cpu
+[2026-09-14 20:06:29,478] 39 root - INFO - Generating embeddings for 121 images...
+[2026-09-14 20:06:31,529] 56 root - INFO - Processed batch 1 (32/121 images)
+[2026-09-14 20:06:32,619] 56 root - INFO - Processed batch 2 (64/121 images)
+[2026-09-14 20:06:34,191] 56 root - INFO - Processed batch 3 (96/121 images)
+[2026-09-14 20:06:35,464] 56 root - INFO - Processed batch 4 (121/121 images)
+[2026-09-14 20:06:35,464] 61 root - INFO - Finished generating embeddings, final shape: (121, 512)

@@ -1,0 +1,11 @@
+[2026-09-14 19:51:02,771] 54 datasets - INFO - PyTorch version 2.4.1 available.
+[2026-09-14 19:51:03,590] 17 root - INFO - Starting dataset download from Hugging Face...
+[2026-09-14 19:51:10,191] 22 root - INFO - Full dataset loaded, total rows: 44072
+[2026-09-14 19:51:10,191] 25 root - INFO - Categories found: ['Apparel' 'Accessories' 'Footwear' 'Personal Care' 'Free Items'
+ 'Sporting Goods' 'Home']
+[2026-09-14 19:51:10,206] 38 root - INFO - Balanced subset created, total rows: 121
+[2026-09-14 19:51:10,270] 65 root - INFO - Fake prices added successfully
+[2026-09-14 19:51:10,270] 18 root - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+[2026-09-14 19:51:11,170] 1736 huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2026-09-14 19:53:32,481] 25 root - INFO - CLIP model loaded successfully on device: cpu
+[2026-09-14 19:53:32,497] 39 root - INFO - Generating embeddings for 121 images...

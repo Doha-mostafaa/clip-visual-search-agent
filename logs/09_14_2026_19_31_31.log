@@ -1,0 +1,8 @@
+[2026-09-14 19:31:31,457] 17 root - INFO - Starting dataset download from Hugging Face...
+[2026-09-14 19:31:35,403] 1736 huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2026-09-14 19:32:15,242] 1736 huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2026-09-14 19:32:53,793] 22 root - INFO - Full dataset loaded, total rows: 44072
+[2026-09-14 19:32:53,801] 25 root - INFO - Categories found: ['Apparel' 'Accessories' 'Footwear' 'Personal Care' 'Free Items'
+ 'Sporting Goods' 'Home']
+[2026-09-14 19:32:53,867] 38 root - INFO - Balanced subset created, total rows: 526
+[2026-09-14 19:32:54,007] 65 root - INFO - Fake prices added successfully

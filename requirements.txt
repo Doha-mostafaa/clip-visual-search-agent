@@ -1,0 +1,9 @@
+datasets
+transformers
+torch
+faiss-cpu
+Pillow
+pandas
+numpy
+groq
+python-dotenv
