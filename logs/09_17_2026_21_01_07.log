@@ -1,0 +1,19 @@
+[2026-09-17 21:01:08,841] 54 datasets - INFO - PyTorch version 2.4.1 available.
+[2026-09-17 21:01:15,481] 17 root - INFO - Starting dataset download from Hugging Face...
+[2026-09-17 21:01:19,795] 22 root - INFO - Full dataset loaded, total rows: 44072
+[2026-09-17 21:01:19,802] 25 root - INFO - Categories found: ['Apparel' 'Accessories' 'Footwear' 'Personal Care' 'Free Items'
+ 'Sporting Goods' 'Home']
+[2026-09-17 21:01:19,846] 40 root - INFO - Balanced subset created, total rows: 121
+[2026-09-17 21:01:19,931] 67 root - INFO - Fake prices added successfully
+[2026-09-17 21:01:20,138] 18 root - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+[2026-09-17 21:01:22,218] 25 root - INFO - CLIP model loaded successfully on device: cpu
+[2026-09-17 21:01:22,218] 39 root - INFO - Generating embeddings for 121 images...
+[2026-09-17 21:01:26,884] 56 root - INFO - Processed batch 1 (32/121 images)
+[2026-09-17 21:01:29,521] 56 root - INFO - Processed batch 2 (64/121 images)
+[2026-09-17 21:01:32,166] 56 root - INFO - Processed batch 3 (96/121 images)
+[2026-09-17 21:01:34,191] 56 root - INFO - Processed batch 4 (121/121 images)
+[2026-09-17 21:01:34,191] 61 root - INFO - Finished generating embeddings, final shape: (121, 512)
+[2026-09-17 21:01:34,198] 25 root - INFO - Building FAISS index...
+[2026-09-17 21:01:34,198] 34 root - INFO - FAISS index built successfully. Total vectors: 121
+[2026-09-17 21:01:34,206] 51 root - INFO - FAISS index saved to: data\processed\faiss.index
+[2026-09-17 21:01:34,208] 55 root - INFO - Metadata saved to: data\processed\metadata.pkl

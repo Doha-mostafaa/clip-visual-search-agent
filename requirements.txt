@@ -7,3 +7,8 @@ pandas
 numpy
 groq
 python-dotenv
+fastapi
+uvicorn
+python-multipart
+streamlit
+pytest

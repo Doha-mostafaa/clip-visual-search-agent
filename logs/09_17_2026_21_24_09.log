@@ -1,0 +1,38 @@
+[2026-09-17 21:24:10,510] 54 datasets - INFO - PyTorch version 2.4.1 available.
+[2026-09-17 21:24:15,109] 17 root - INFO - Starting dataset download from Hugging Face...
+[2026-09-17 21:24:18,842] 22 root - INFO - Full dataset loaded, total rows: 44072
+[2026-09-17 21:24:18,844] 25 root - INFO - Categories found: ['Apparel' 'Accessories' 'Footwear' 'Personal Care' 'Free Items'
+ 'Sporting Goods' 'Home']
+[2026-09-17 21:24:18,875] 40 root - INFO - Balanced subset created, total rows: 731
+[2026-09-17 21:24:18,951] 67 root - INFO - Fake prices added successfully
+[2026-09-17 21:24:19,146] 18 root - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+[2026-09-17 21:24:20,932] 25 root - INFO - CLIP model loaded successfully on device: cpu
+[2026-09-17 21:24:20,932] 39 root - INFO - Generating embeddings for 731 images...
+[2026-09-17 21:24:26,665] 56 root - INFO - Processed batch 1 (32/731 images)
+[2026-09-17 21:24:29,049] 56 root - INFO - Processed batch 2 (64/731 images)
+[2026-09-17 21:24:32,176] 56 root - INFO - Processed batch 3 (96/731 images)
+[2026-09-17 21:24:35,648] 56 root - INFO - Processed batch 4 (128/731 images)
+[2026-09-17 21:24:40,537] 56 root - INFO - Processed batch 5 (160/731 images)
+[2026-09-17 21:24:45,195] 56 root - INFO - Processed batch 6 (192/731 images)
+[2026-09-17 21:24:49,006] 56 root - INFO - Processed batch 7 (224/731 images)
+[2026-09-17 21:24:51,101] 56 root - INFO - Processed batch 8 (256/731 images)
+[2026-09-17 21:24:53,186] 56 root - INFO - Processed batch 9 (288/731 images)
+[2026-09-17 21:24:55,845] 56 root - INFO - Processed batch 10 (320/731 images)
+[2026-09-17 21:24:58,068] 56 root - INFO - Processed batch 11 (352/731 images)
+[2026-09-17 21:25:00,182] 56 root - INFO - Processed batch 12 (384/731 images)
+[2026-09-17 21:25:02,601] 56 root - INFO - Processed batch 13 (416/731 images)
+[2026-09-17 21:25:05,043] 56 root - INFO - Processed batch 14 (448/731 images)
+[2026-09-17 21:25:07,307] 56 root - INFO - Processed batch 15 (480/731 images)
+[2026-09-17 21:25:09,797] 56 root - INFO - Processed batch 16 (512/731 images)
+[2026-09-17 21:25:12,197] 56 root - INFO - Processed batch 17 (544/731 images)
+[2026-09-17 21:25:14,407] 56 root - INFO - Processed batch 18 (576/731 images)
+[2026-09-17 21:25:16,589] 56 root - INFO - Processed batch 19 (608/731 images)
+[2026-09-17 21:25:18,587] 56 root - INFO - Processed batch 20 (640/731 images)
+[2026-09-17 21:25:20,517] 56 root - INFO - Processed batch 21 (672/731 images)
+[2026-09-17 21:25:22,405] 56 root - INFO - Processed batch 22 (704/731 images)
+[2026-09-17 21:25:23,973] 56 root - INFO - Processed batch 23 (731/731 images)
+[2026-09-17 21:25:23,974] 61 root - INFO - Finished generating embeddings, final shape: (731, 512)
+[2026-09-17 21:25:23,976] 25 root - INFO - Building FAISS index...
+[2026-09-17 21:25:23,979] 34 root - INFO - FAISS index built successfully. Total vectors: 731
+[2026-09-17 21:25:23,986] 51 root - INFO - FAISS index saved to: data\processed\faiss.index
+[2026-09-17 21:25:23,988] 55 root - INFO - Metadata saved to: data\processed\metadata.pkl

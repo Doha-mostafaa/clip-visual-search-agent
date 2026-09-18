@@ -81,7 +81,7 @@ if __name__ == "__main__":
     from src.components.data_ingestion import load_balanced_subset, add_fake_prices
     from src.components.embedding_generator import load_clip_model, generate_image_embeddings
 
-    balanced_df, full_dataset = load_balanced_subset(samples_per_category=20)
+    balanced_df, full_dataset = load_balanced_subset(samples_per_category=150)
     balanced_df = add_fake_prices(balanced_df)
 
     subset_dataset = full_dataset.select(balanced_df["orig_idx"].tolist())
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     index = build_faiss_index(embeddings)
 
     # Keep only the metadata columns we actually need for search results
-    metadata_df = balanced_df[["productDisplayName", "masterCategory", "price"]].reset_index(drop=True)
+    metadata_df = balanced_df[["orig_idx", "productDisplayName", "masterCategory", "price"]].reset_index(drop=True)
 
     save_index_and_metadata(index, metadata_df)
 
