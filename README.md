@@ -21,8 +21,6 @@ Price Comparison + LLM Agent Reasoning
 ↓
 Final Recommendation
 
-
-
 ## 🛠️ Tech Stack
 
 - **CV/Embeddings**: CLIP (openai/clip-vit-base-patch32) via Hugging Face Transformers
@@ -42,7 +40,7 @@ Final Recommendation
 
 ## 🚀 Running Locally
 
-### Option 1: With Docker (recommended)
+### Option 1: With Docker
 
 ```bash
 docker build -t visual-shopping-assistant .
